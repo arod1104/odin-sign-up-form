@@ -29,6 +29,8 @@ body {
   overflow: hidden;
   background-image: url("plant.avif");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .background-image {
@@ -66,16 +68,20 @@ body {
 }
 
 .photo-credit {
+  --text-color: rgb(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  font-size: 12px;
-  color: white;
+  bottom: 1.2rem;
+  left: min(14rem, calc(50% - 7rem));
+  font-size: 14px;
+  color: var(--text-color);
 }
 
-.photo-credit a {
-  color: white;
-  text-decoration: none;
+.photo-credit > a {
+  color: var(--text-color);
+  /* text-decoration: none; */
 }
 
 .right-side {
