@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Sign Up</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="preload"
+      href="Norse-Bold.otf"
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="logo">
+          <img
+            class="outlined-logo"
+            src="odin-lined.png"
+            alt="An outlined Odin Project logo"
+          />
+          <div class="logo-text">ODIN</div>
+        </div>
+        <p class="photo-credit">
+          Photo by
+          <a href="https://unsplash.com/@haliewestphoto" target="_blank"
+            >Halie West</a
+          >
+          on <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+        </p>
+      </div>
+      <div class="right-side">
+        <h2>This is not a real online service!</h2>
+        <p class="sub-text">
+          You know you need something like this in your life to help you realize
+          your deepest dreams. Sign up <strong>now</strong> to get started.
+        </p>
+        <p class="sub-text">You <strong>know</strong> you want to.</p>
+
+        <h3>Let's do this!</h3>
+        <form action="#" method="post">
+          <div class="input-group">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="input-group">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <label for="phone-number">Phone Number</label>
+            <input
+              type="tel"
+              name="phone-number"
+              id="phone-number"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label
+            ><input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="input-group">
+            <label for="confirm-password">Confirm Password</label
+            ><input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <p class="error-message">* Passwords do not match</p>
+          <button type="submit" class="submit-btn">Create Account</button>
+          <p class="login-text">
+            Already have an account? <a href="#">Log in</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
