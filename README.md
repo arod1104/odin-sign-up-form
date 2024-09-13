@@ -2,6 +2,8 @@
 
 This project is simple client-side sign up form part of the Intermediate HTML and CSS couse from The Odin Project.
 
+This project is simple client-side sign up form part of the Intermediate HTML and CSS course from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
+
 # Assignment
 
 ## Step 1: Set up and planning
