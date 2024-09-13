@@ -124,11 +124,11 @@ legend {
 
 .white-background {
   background-color: white;
-  padding: var(--left-padding);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px var(--left-padding) 30px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
-.grid-container {
+.input-group-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
@@ -148,16 +148,22 @@ legend {
 }
 
 .input-group input {
+  margin-top: 4px;
   width: 20rem;
   padding: 10px;
   border: 1px solid #aaa;
   border-radius: 4px;
 }
 
+input:invalid {
+  border: 2px solid red;
+  border-color: red;
+}
+
 .error-message {
   color: red;
   font-size: 14px;
-  margin-bottom: 20px;
+  /* margin: 20px; */
 }
 
 .submit-btn {
@@ -187,16 +193,4 @@ legend {
 .login-text a {
   color: #6e825e;
   text-decoration: none;
-}
-
-input {
-  border: 1px solid #e5e7eb;
-}
-
-input:invalid {
-  border-color: red;
-}
-
-input[type="password"]:invalid {
-  border-color: red;
 }
