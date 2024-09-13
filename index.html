@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <div class="left-side">
         <div class="logo">
           <img
@@ -35,69 +35,51 @@
       <div class="right-side">
         <p class="sub-text">
           This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up
-          <strong>now</strong> to get started.
+          this in your life to help you realize your deepest dreams.<br />Sign
+          up <em>now</em> to get started.
         </p>
-        <p class="sub-text">You <strong>know</strong> you want to.</p>
+        <p class="sub-text">You <em>know</em> you want to.</p>
 
-        <h3>Let's do this!</h3>
         <form action="#" method="post">
-          <div class="input-group">
-            <label for="first-name">First Name</label>
-            <input
-              type="text"
-              name="first-name"
-              id="first-name"
-              placeholder="First Name"
-            />
+          <div class="white-background">
+            <legend>Let's do this!</legend>
+            <div class="grid-container">
+              <div class="input-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" />
+              </div>
+              <div class="input-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="input-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" name="phone-number" id="phone-number" />
+              </div>
+              <div class="input-group">
+                <label for="password">Password</label
+                ><input type="password" name="password" id="password" />
+              </div>
+              <div class="input-group">
+                <label for="confirm-password">Confirm Password</label
+                ><input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                />
+              </div>
+            </div>
           </div>
-          <div class="input-group">
-            <label for="last-name">Last Name</label>
-            <input
-              type="text"
-              name="last-name"
-              id="last-name"
-              placeholder="Last Name"
-            />
-          </div>
-          <div class="input-group">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email" />
-          </div>
-          <div class="input-group">
-            <label for="phone-number">Phone Number</label>
-            <input
-              type="tel"
-              name="phone-number"
-              id="phone-number"
-              placeholder="Phone Number"
-            />
-          </div>
-          <div class="input-group">
-            <label for="password">Password</label
-            ><input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-            />
-          </div>
-          <div class="input-group">
-            <label for="confirm-password">Confirm Password</label
-            ><input
-              type="password"
-              name="confirm-password"
-              id="confirm-password"
-              placeholder="Confirm Password"
-            />
-          </div>
-          <p class="error-message">* Passwords do not match</p>
           <button type="submit" class="submit-btn">Create Account</button>
           <p class="login-text">
             Already have an account? <a href="#">Log in</a>
           </p>
         </form>
       </div>
-    </div>
+    </main>
   </body>
 </html>
